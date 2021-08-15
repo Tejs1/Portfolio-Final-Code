@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #ff00006c;
+  --secondary-color: #fdf8f3;
+  --dark-color: #111;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.4;
+  background-color: var(--secondary-color);
+}
+
+.container {
+  height: 100vh;
+  background-image: linear-gradient(120deg, #fd6338, #f6d365);
+  max-width: 760px;
+  margin: auto;
+  margin-top: none;
+  margin-bottom: none;
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 1rem;
+}
+
+.container h2 {
+  padding: 0.5rem;
+}
+
+.container a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.container p {
+  padding-bottom: 1rem;
+}
+
+.container label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.container input[type="number"] {
+  background-color: var(--secondary-color);
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  padding: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  border-radius: 15px;
+  padding: 0.6rem 1.2rem;
+  margin-bottom: 1rem;
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
+  transition: background 0.5s;
+  outline: none;
+  border: none;
+}
+
+.btn:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  outline: none;
+}
+
+.returnDiv table {
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th,
+td {
+  border: 1px solid var(--dark-color);
+  text-align: center;
+  padding: 0.5rem 2rem;
+}
+
+th,
+tr:nth-child(even) {
+  background-color: var(--secondary-color);
+  color: var(--dark-color);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
