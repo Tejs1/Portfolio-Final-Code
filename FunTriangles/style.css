@@ -3,9 +3,7 @@
   margin: 0%;
   box-sizing: border-box;
 }
-html {
-  height: 100%;
-}
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap");
 /* front page styling below  */
 body {
