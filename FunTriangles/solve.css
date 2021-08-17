@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-bg: #b45309c7;
+  --brown: #b45309;
+}
+
+.container {
+  max-width: 60%;
+  margin: auto;
+}
+
+section {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
+section:last-child {
+  border-bottom: none;
+}
+section p,
+section ul {
+  margin-top: 1rem;
+}
+
+section li {
+  text-align: left;
+  margin-top: 0.2rem;
+}
+
+li span {
+  color: var(--brown);
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--brown);
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: var(--primary-bg);
+}
+
+/* calulate page */
+
+form {
+  margin-top: 1rem;
+}
+
+form label {
+  display: inline-block;
+  cursor: pointer;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  background-color: white;
+  font-size: 0.8rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 0.5rem;
+  -moz-appearance: textfield;
+}
+
+.hidden {
+  display: none;
+}
+form + p {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* quiz */
+.question {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+.question ~ label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0 1rem;
+}
+input[type="radio"] {
+  cursor: pointer;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+/* mobile design */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 90%;
+  }
+}
