@@ -64,6 +64,9 @@ section button:hover {
 .content {
   margin-left: 10rem;
   margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 img {
@@ -139,8 +142,11 @@ main p {
 .output img {
   height: 100%;
 }
+h3 {
+  font-size: 2rem;
+}
 .tejs {
-  margin-bottom: 15px;
+  font-size: 2rem;
 }
 .footer-links {
   padding: 0%;
@@ -152,20 +158,19 @@ main p {
   justify-content: center;
 }
 i {
-  font-size: 22px;
+  font-size: 30px;
 }
 footer a {
   width: 30px;
+  margin: 1rem;
+  margin-bottom: 0px;
 }
 footer p {
   display: flex;
   justify-content: center;
 }
-.fab {
-  margin: 1rem;
-}
+
 footer {
-  margin: 1rem 0rem 0rem 0rem;
   text-align: center;
 }
 
