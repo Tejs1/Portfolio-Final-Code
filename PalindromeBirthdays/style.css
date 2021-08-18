@@ -1,0 +1,180 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+:root {
+  --main: #263238;
+  --sub: #92e3a9;
+  --hover: #263238;
+  --background: #fdf8f3;
+  --font: #263238;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Varela&display=swap");
+body {
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--font);
+  font-family: "Montserrat", sans-serif;
+}
+h1,
+h2 {
+  color: var(--main);
+}
+
+section {
+  width: 90%;
+  height: 100vh;
+  text-align: start;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+section h1 {
+  text-align: start;
+  font-size: 2.6rem;
+  margin: 0.5rem;
+}
+section p {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+section button {
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 0.4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--sub);
+  color: var(--background);
+  transition: all 0.2s ease-in;
+}
+section button:hover {
+  background-color: var(--hover);
+}
+.content {
+  margin-left: 10rem;
+  margin-bottom: 2rem;
+}
+
+img {
+  margin-left: 0rem;
+  height: 800px;
+  margin-bottom: 2rem;
+}
+main {
+  padding-top: 2rem;
+  width: 70%;
+  margin-bottom: 1rem;
+  height: 100%;
+  text-align: center;
+}
+main h2 {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+main p {
+  margin: 1rem;
+  font-size: 1.2rem;
+  text-align: start;
+}
+.container {
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.container button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1.4rem;
+  margin: 0.5rem;
+  border-radius: 0.4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--sub);
+  color: var(--background);
+  transition: all 0.2s ease-in;
+}
+.container button:hover {
+  background-color: var(--hover);
+}
+.container label {
+  font-size: 1.6rem;
+  color: var(--main);
+}
+::-webkit-calendar-picker-indicator {
+  filter: invert(100);
+}
+.container input {
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 0.7rem;
+  margin: 0.5rem;
+  border-radius: 0.4rem;
+  border: none;
+  outline: none;
+  background-color: var(--main);
+  color: var(--sub);
+}
+
+.output {
+  margin-top: 1.2rem;
+  font-size: 1.6rem;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  color: var(--main);
+}
+.output img {
+  height: 100%;
+}
+.tejs {
+  margin-bottom: 15px;
+}
+.footer-links {
+  padding: 0%;
+  margin: 0px;
+  border: none;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+i {
+  font-size: 22px;
+}
+footer a {
+  width: 30px;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+}
+.fab {
+  margin: 1rem;
+}
+footer {
+  margin: 1rem 0rem 0rem 0rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins";
+  color: var(--font);
+}
